@@ -9,8 +9,8 @@
 </head>
 
 <body class="bg-mainColor text-gray-300">
-  <header class="container mx-auto">
-    <div class="flex justify-between pt-big">
+  <header class="container mx-auto px-5 md:px-0">
+    <div class="flex justify-between pt-big items-center">
       <span class="font-bold text-3xl">Tailwind</span>
 
       <div class="space-x-5">
@@ -19,6 +19,28 @@
       </div>
     </div>
   </header>
+
+  <main class="container mx-auto py-big px-3 sm:px-0">
+    <h1 class="text-center text-3xl font-bold">Tailwind CSS</h1>
+    <p class="pt-6 w-full sm:w-[450px] mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius suscipit accusamus
+      ratione minima numquam
+      accusantium itaque magni id nobis odit?</p>
+
+    <div class="flex justify-center pt-big space-x-0 md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0">
+      <div href="" class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-600">Button 1</div>
+      <div href="" class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-600">Button 2</div>
+      <div href="" class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-600">Button 3</div>
+      <div href="" class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-600">Button 4</div>
+      <div href="" class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-600">Button 5</div>
+    </div>
+  </main>
+
+  <div class="container mx-auto py-big grid grid-cols-4 grid-flow-col gap-4">
+    <div class="bg-purple-500 w-1/2 h-[100px]"></div>
+    <div class="bg-purple-500 w-3/5 h-[100px]"></div>
+    <div class="bg-purple-500 w-1/6 h-[100px]"></div>
+    <div class="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 w-full h-[100px]"></div>
+  </div>
 </body>
 
 </html>
